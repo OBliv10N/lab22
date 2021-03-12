@@ -24,7 +24,9 @@ int main(){
 	line_up.insert(loc,"Oscar");
 	
 	//Write your code here
-	
+	line_up.push_back("Luffy");
+	line_up.push_back("Sanji");
+	line_up.push_back("Nami");
 	printList(line_up);
 		
 	return 0;
